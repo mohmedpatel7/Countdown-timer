@@ -1,0 +1,91 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #6dd5fa, #2980b9);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+input[type="datetime-local"] {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    background: transparent;
+    color: #ffffff;
+}
+
+input[type="datetime-local"]::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input[type="datetime-local"]:focus {
+    outline: none;
+    border-color: #00aaff;
+    box-shadow: 0 0 5px #00aaff;
+}
+
+
+.btn-primary {
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #007bb5;
+    transform: scale(1.05);
+}
+
+.btn-primary:active {
+    transform: scale(0.95);
+}
+
+.ms-2 {
+    margin-left: 0.5rem;
+}
+
+
+.timer-display {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.timer-display h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.timer-display p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
